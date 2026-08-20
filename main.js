@@ -1,5 +1,5 @@
 document.getElementById('add-btn').addEventListener('click', (e) => {
-    e.preventDefault();
+    console.log('ボタンが押されました！');e.preventDefault();
     const input = document.getElementById('todo-input');
     const text = input.value.trim();
     if (!text) return;
